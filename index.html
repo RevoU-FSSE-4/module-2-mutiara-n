@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Best Furiends Furever</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+    <link rel="icon" type="image/x-icon" href="images/logo.webp">
+    <link rel="stylesheet" href="style.css">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+    </style>
+</head>
+    <body>
+        <nav class="navigation">
+            <img src="images/logo.webp" alt="logo" class="logo">
+            <div class="menu">
+                <a href="#">Home</a>
+                <a href="#">About</a>
+                <a href="#">Menu</a>
+                <a href="#">Contact</a>
+            </div>
+        </nav>
+
+        <header id="header">
+            <h1>Adopt Cat(s) and Became Their New Best Friends!</h1>
+            <p>Welcome to Best Furiends Furever!</p>
+        </header>
+
+        <main class="container">
+
+            <section id="home">
+                <h2>Meet Our Lovely Best Furiends &#9829;</h2>
+                <p>They're pawsome, little furballs!</p>
+                <div class="grid-container">
+                    <div id="one" class="grid-item">
+                        <img src="images/white.jpg" alt="White Cat" class="cat-img">
+                        <div class="middle">
+                            <div class="text-grid">Winny</div>
+                        </div>
+                    </div>
+                    <div id="two" class="grid-item">
+                        <img src="images/tubby.webp" alt="Tubby Cat" class="cat-img">
+                        <div class="middle">
+                            <div class="text-grid">Tobby</div>
+                        </div>
+                    </div>
+                    <div id="three" class="grid-item">
+                        <img src="images/calico.jpg" alt="Calico Cat" class="cat-img">
+                        <div class="middle">
+                            <div class="text-grid">Coco</div>
+                        </div>
+                    </div>
+                    <div id="four" class="grid-item">
+                        <img src="images/orange.jpg" alt="Orange Cat" class="cat-img">
+                        <div class="middle">
+                            <div class="text-grid">Joy</div>
+                        </div>
+                    </div>
+                    <div id="five" class="grid-item">
+                        <img src="images/black.webp" alt="Black Cat" class="cat-img">
+                        <div class="middle">
+                            <div class="text-grid">Charco</div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section class="about">
+                <div>
+                    <h2>About Us</h2>
+                    <p style="flex: 1; margin-top: auto; margin-bottom: auto;">Best Furiends Forever is a nonprofit animal shelter, caring for many thousands of pets each year. 
+                        We serves people and pets through its programs, which include pet adoption, human education, pet behavior training, spay/neuter, animal cruelty intervention and much more.</p>    
+                </div>
+                <picture>
+                    <source media="(min-width: 767px)" srcset="images/about-desktop.png">
+
+                    <source media="(min-width: 480px)" srcset="images/about-767px.png">
+                    
+                    <img src="images/about-480px.png" alt="about-decoration" class="about-img">
+                </picture>
+            </section>
+
+            <section class="contact">
+                <h2>Contact Us</h2>
+                <form>
+                    <div class="input-form">
+                        <input placeholder="Your Name" type="text"><br>
+                        <input placeholder="Your Email" type="email"><br>
+                    </div>
+                    <div>
+                        <p>Select the cat(s) you might have interest in:</p>
+                        <div class="checkbox-form"><input type="checkbox">Orange Cat</div>
+                        <div class="checkbox-form"><input type="checkbox">White Cat</div>
+                        <div class="checkbox-form"><input type="checkbox">Tubby Cat</div>
+                        <div class="checkbox-form"><input type="checkbox">Black Cat</div>
+                        <div class="checkbox-form"><input type="checkbox">Calico Cat</div>
+                    </div>
+                    <div class="today-date">
+                        <label for="todaydate">Today's Date :</label>
+                        <input type="date" name="birth-date">
+                    </div>
+                    <textarea placeholder="Your Message"></textarea><br>
+                    <input type="submit" value="Submit">
+                </form>
+            </section>
+
+        </main>
+        <footer>
+            <hr>
+            <p style="text-align: right;">&copy; 2024 Best Furiends Furever. All rights reserved.</p>
+        </footer>
+    </body>
+</html>

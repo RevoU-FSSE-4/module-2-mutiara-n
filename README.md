@@ -49,3 +49,17 @@ This website consist of three sections. In the first section, there's a preview 
 
 9. Pilih menu Domain Management pada situs Netlify yang telah di deploy, kemudian pilih Add Domain.
 ![deploy](deployment/deploy17.png)
+
+10. Tambahkan custom domain sesuai dengan domain yang telah didaftarkan.
+![deploy](deployment/deploy18.png)
+![deploy](deployment/deploy19.png)
+
+11. Dapat dilihat dari gambar sebelumnya, situs belum bisa berjalan tanpa DNS. Setup DNS dapat dilakukan di niagahoster dengan mengganti <b>nameservers</b> di halaman domain overview dengan nameservers Netlify.
+![deploy](deployment/deploy21.png)
+![deploy](deployment/deploy22.png)
+![deploy](deployment/deploy23.png)
+![deploy](deployment/deploy24.png)
+
+12. Tunggu maksimal 24 jam sampai tanda Awaiting External DNS berubah menjadi Netlify DNS, maka proses penambahan custom domain selesai dilakukan.\
+![deploy](deployment/deploy19.png)
+![deploy](deployment/deploy25.png)

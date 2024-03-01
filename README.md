@@ -63,3 +63,6 @@ This website consist of three sections. In the first section, there's a preview 
 12. Tunggu maksimal 24 jam sampai tanda Awaiting External DNS berubah menjadi Netlify DNS, maka proses penambahan custom domain selesai dilakukan.\
 ![deploy](deployment/deploy19.png)
 ![deploy](deployment/deploy25.png)
+
+### URL Site
+https://catkingdom.site/

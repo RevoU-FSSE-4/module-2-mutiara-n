@@ -1,6 +1,3 @@
-# deploy-project
-Contoh deploy netlify
-
 # Best Furiends Furever
 This is a simple animal shelter for cat adoption website.
 
